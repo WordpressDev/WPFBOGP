@@ -27,7 +27,10 @@ License: GPL2
 
 // beta changes since 1.5.2
 // use wp_title() to get the title of the current page. SEO plugins filter wp_title so we will get the best title available
+// add checkbox in settings to allow fallback image as always default
+// use new code snippet for the current URL which removes the need for an if/else and globals to determine the url
 // mod og:url to sniff & use https if site requires it. props Janos.
+// other minor bug fixes and style updates
 
 define('WPFBOGP_VERSION', '1.6b');
 wpfbogp_admin_warnings();
