@@ -26,6 +26,7 @@ License: GPL2
 */
 
 // beta changes since 1.5.2
+// use wp_title() to get the title of the current page. SEO plugins filter wp_title so we will get the best title available
 // mod og:url to sniff & use https if site requires it. props Janos.
 
 define('WPFBOGP_VERSION', '1.6b');
